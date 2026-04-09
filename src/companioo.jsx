@@ -1,9 +1,9 @@
 import { useState, useEffect, useRef } from "react"
 
-import LOGO_THECLA from "./assets/logo_thecla.png";
+import LOGO_THECLA from "./assets/LOGO_THECLA.png";
 import COMPANIOO_LOGO from "./assets/companioo_logo.png";
-import DAILY_CARE from "./assets/daily_care.jpg";
-import HOME_CARE from "./assets/home_care.jpg";
+import DAILY_CARE from "./assets/DAILY_CARE.jpg";
+import HOME_CARE from "./assets/HOME_CARE.jpg";
 
 const slides = [
   {
