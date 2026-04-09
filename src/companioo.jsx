@@ -302,7 +302,7 @@ export default function App() {
             {/* LEFT — logo */}
             <button onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               style={{ background: "none", border: "none", cursor: "pointer", display: "flex", alignItems: "center", gap: "0.85rem", padding: 0 }}>
-              <div style={{ width: "48px", height: "48px", borderRadius: "10px", overflow: "hidden", flexShrink: 0 }}>
+              <div style={{ width: "280px", height: "280px", borderRadius: "10px", overflow: "hidden", flexShrink: 0 }}>
                 <img src={COMPANIOO_LOGO} alt="CompanionPro" style={{ width: "100%", height: "100%", objectFit: "contain" }} />
               </div>
               <div style={{ width: "1px", height: "28px", background: "rgba(255,255,255,0.15)" }} />
@@ -366,7 +366,7 @@ export default function App() {
                 <span className="tag">{slides[slide].tag}</span>
                 <div style={{ display: "flex", alignItems: "center", gap: "0.85rem", marginBottom: "1.5rem", flexWrap: "wrap" }}>
                   <div style={{ width: "60px", height: "60px", borderRadius: "8px", overflow: "hidden", flexShrink: 0 }}>
-                    <img src={COMPANIOO_LOGO} alt="CompanionPro" style={{ width: "100%", height: "100%", objectFit: "contain" }} />
+                   
                   </div>
                   <span style={{ color: "rgba(255,255,255,0.35)", fontFamily: "'DM Sans',sans-serif", fontSize: "0.85rem", letterSpacing: "0.12em" }}>presents</span>
                   <span className="pulse" style={{ background: "linear-gradient(135deg,#f97316,#ef4444)", color: "white", padding: "0.3rem 0.9rem", borderRadius: "2rem", fontSize: "0.72rem", fontWeight: 700, letterSpacing: "0.1em", fontFamily: "'DM Sans',sans-serif" }}>COMING SOON</span>
@@ -626,7 +626,7 @@ export default function App() {
 
             <div className="footer-brand">
               <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", marginBottom: "1.25rem" }}>
-                <div style={{ width: "48px", height: "48px", borderRadius: "8px", overflow: "hidden", flexShrink: 0 }}>
+                <div style={{ width: "150px", height: "150px", borderRadius: "8px", overflow: "hidden", flexShrink: 0 }}>
                   <img src={COMPANIOO_LOGO} alt="CompanionPro" style={{ width: "100%", height: "100%", objectFit: "contain" }} />
                 </div>
                 <div>
@@ -640,7 +640,7 @@ export default function App() {
               <div style={{ background: "rgba(255,255,255,0.05)", borderRadius: "0.875rem", padding: "1rem 1.25rem", border: "1px solid rgba(255,255,255,0.07)" }}>
                 <p style={{ fontFamily: "'DM Sans',sans-serif", color: "rgba(255,255,255,0.35)", fontSize: "0.7rem", letterSpacing: "0.08em", textTransform: "uppercase", marginBottom: "0.6rem" }}>A product of</p>
                 <div style={{ display: "flex", alignItems: "center", gap: "0.65rem" }}>
-                  <img src={LOGO_THECLA} alt="Thecla Technologies" style={{ height: "30px", width: "30px", objectFit: "contain", opacity: 0.55, filter: "brightness(0) invert(1)" }} />
+                  <img src={LOGO_THECLA} alt="Thecla Technologies" style={{ height: "30px", width: "30px", objectFit: "contain", opacity: 0.55 }} />
                   <div>
                     <div style={{ fontFamily: "'DM Sans',sans-serif", fontSize: "0.8rem", fontWeight: 600, color: "rgba(255,255,255,0.5)" }}>Thecla Technologies & Services Ltd</div>
                     <div style={{ fontFamily: "'DM Sans',sans-serif", fontSize: "0.68rem", color: "rgba(255,255,255,0.3)", marginTop: "1px" }}>50 Castile Court, Waltham Cross, EN8 7SG</div>
@@ -683,5 +683,5 @@ export default function App() {
         {modal && <WaitlistModal onClose={() => setModal(false)} />}
       </div>
     </>
-  );
+  )
 }
