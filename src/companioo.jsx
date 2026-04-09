@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react"
 
 import LOGO_THECLA from "./assets/logo_thecla.png";
 import COMPANIOO_LOGO from "./assets/companioo_logo.png";
@@ -522,7 +522,7 @@ export default function App() {
                   <img src={COMPANIOO_LOGO} alt="CompanionPro" style={{ width: "100%", height: "100%", objectFit: "contain"}} />
                 </div>
                 <div>
-                  <div style={{ fontFamily: "'Playfair Display',serif", fontSize: "1.15rem", fontWeight: 700, color: "white" }}>CompanionPro</div>
+                  <div style={{ fontFamily: "'Playfair Display',serif", fontSize: "1.15rem", fontWeight: 700, color: "white" }}>Companio</div>
                   <div style={{ fontFamily: "'DM Sans',sans-serif", fontSize: "0.62rem", color: "rgba(255,255,255,0.35)", letterSpacing: "0.1em", textTransform: "uppercase", marginTop: "2px" }}>Caring Connections</div>
                 </div>
               </div>
