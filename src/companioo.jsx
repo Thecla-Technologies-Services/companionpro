@@ -302,7 +302,7 @@ export default function App() {
             {/* LEFT — logo */}
             <button onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               style={{ background: "none", border: "none", cursor: "pointer", display: "flex", alignItems: "center", gap: "0.85rem", padding: 0 }}>
-              <div style={{ width: "280px", height: "280px", borderRadius: "10px", overflow: "hidden", flexShrink: 0 }}>
+              <div style={{ width: "200px", height: "200px", borderRadius: "10px", overflow: "hidden", flexShrink: 0 }}>
                 <img src={COMPANIOO_LOGO} alt="CompanionPro" style={{ width: "100%", height: "100%", objectFit: "contain" }} />
               </div>
               <div style={{ width: "1px", height: "28px", background: "rgba(255,255,255,0.15)" }} />
